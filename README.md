@@ -1,4 +1,4 @@
-Image processing
+Image processing :
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
@@ -17,7 +17,7 @@ Developed Logics-
   M. Image Rotate
   N. Imaage Template
 
-Video processing
+Video processing :
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
@@ -27,7 +27,7 @@ Developed Logics-
  D. Video Stream 
  E. Video Stack
 
-Annotations
+Annotations :
 Libraries or Frameworks used- opencv ,LabelImg
 Version- 4.10.0.84 ,1.8.6
 Developed Logics-
@@ -35,7 +35,7 @@ Developed Logics-
  B. Labelling 
  C. Label Manipulate
 
-Face Recognition 
+Face Recognition :
 Libraries or Frameworks used-
 face_recognition -- 1.3.0
 dlib --1 9.24.6
