@@ -2,38 +2,39 @@ Image processing :
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
-  A. BGR2GRAY
-  B. Image Blur
-  c. Image Contour
-  D. Image Crop 
-  E. Image cv2
-  F. Image Detect and Erosion
-  G. Image Edge_detection
-  H. Image Hist_eq
-  I. Image HSV
-  J. Image Stack
-  K. Image Morph
-  L. Image Resize
-  M. Image Rotate
-  N. Imaage Template
+  A.Image BGR2GRAY: Converts a color image from BGR to grayscale.
+  B.Image Blur: Applies blurring to reduce image noise and details.
+  C.Image Contour: Detects and outlines the contours of objects within an image.
+  D.Image Crop: Extracts a specific region of interest from the image.
+  E.Image cv2: A general OpenCV operation applied to the image.
+  F.Image Detect and Erosion: Detects features and applies erosion to remove small noise.
+  G.Image Edge Detection: Identifies edges in the image using gradient techniques.
+  H.Image Histogram Equalization (Hist_eq): Enhances image contrast by equalizing its histogram.
+  I.Image HSV: Converts an image from BGR to HSV color space.
+  J.Image Stack: Combines multiple images into a single stacked format.
+  K.Image Morph: Performs morphological transformations like dilation or erosion.
+  L.Image Resize: Changes the image dimensions while preserving aspect ratio.
+  N.Image Rotate: Rotates the image to a specified angle.
+  M.Image Template: Creates a template for matching specific patterns within an image.
+
 
 Video processing :
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
- A. Video Folder_path
- B. Video fps
- C. Video Save
- D. Video Stream 
- E. Video Stack
+ A.Video Folder Path:Specifies the folder path where video files are stored.
+ B.Video FPS: Sets the frames per second (fps) for controlling video playback speed.
+ C.Video Save: Saves the processed video to a specified file format.
+ D.Video Stream: Captures live video feed from a camera or streaming source.
+ E.Video Stack: Combines multiple video frames for side-by-side or sequential analysis.
 
 Annotations :
 Libraries or Frameworks used- opencv ,LabelImg
 Version- 4.10.0.84 ,1.8.6
 Developed Logics-
- A. Data Segregate
- B. Labelling 
- C. Label Manipulate
+ A. Data Segregate : Splits data into different categories or sets for analysis.
+ B. Labelling : Assigns labels or annotations to data for classification.
+ C. Label Manipulate : Modifies or adjusts labels to refine data categories or correct errors.
 
 Face Recognition :
 Libraries or Frameworks used-
