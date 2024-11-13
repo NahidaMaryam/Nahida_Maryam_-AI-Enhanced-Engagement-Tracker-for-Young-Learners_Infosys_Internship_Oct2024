@@ -1,4 +1,4 @@
-Image processing :
+**Image processing **:
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
@@ -18,7 +18,7 @@ Developed Logics-
   M.Image Template: Creates a template for matching specific patterns within an image.
 
 
-Video processing :
+**Video processing** :
 Libraries or Frameworks used- opencv
 Version- 4.10.0.84
 Developed Logics-
@@ -28,7 +28,7 @@ Developed Logics-
  D.Video Stream: Captures live video feed from a camera or streaming source.
  E.Video Stack: Combines multiple video frames for side-by-side or sequential analysis.
 
-Annotations :
+**Annotations** :
 Libraries or Frameworks used- opencv ,LabelImg
 Version- 4.10.0.84 ,1.8.6
 Developed Logics-
@@ -36,7 +36,7 @@ Developed Logics-
  B. Labelling : Assigns labels or annotations to data for classification.
  C. Label Manipulate : Modifies or adjusts labels to refine data categories or correct errors.
 
-Face Recognition :
+**Face Recognition** :
 Libraries or Frameworks used-
 face_recognition -- 1.3.0
 dlib --1 9.24.6
