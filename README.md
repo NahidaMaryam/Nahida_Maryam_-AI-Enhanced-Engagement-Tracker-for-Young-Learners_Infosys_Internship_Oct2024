@@ -4,6 +4,7 @@ Image processing is a technique used to enhance, analyze, and manipulate digital
 Libraries or Frameworks used- opencv
 
 Version- 4.10.0.84
+
 **Developed Logics**-
  
 **A. Image BGR2GRAY**
