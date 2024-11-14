@@ -113,6 +113,8 @@ Output Image: ![rotate](https://github.com/user-attachments/assets/e41de2b1-7176
 Output Image: ![template](https://github.com/user-attachments/assets/9d476ecb-ed49-4827-9602-3064e5ddb858)
 
 
+
+
 **Video processing** :
 Video processing refers to the manipulation, enhancement, and analysis of video data using various computational techniques. It involves applying algorithms to extract useful information, improve video quality, or transform the video for specific applications, such as computer vision, entertainment, security, or healthcare. Video processing encompasses a range of operations from basic editing to complex analysis, often performed in real-time or on pre-recorded content.
 
@@ -127,35 +129,43 @@ Version- 4.10.0.84
  * Enables batch processing by allowing automated access to multiple videos.
  * Facilitates easy retrieval and organization of video datasets or archived footage.
 
-Output Screenshot: 
+Output Screenshot: ![folderpath](https://github.com/user-attachments/assets/c5cf3f9a-8bb6-4d74-b8b2-6e71dfc7e07e)
+
 
 **B. Video FPS (Frames Per Second)**
  * Controls the playback speed and smoothness of video.
  * Allows adjustment of video speed, such as slow-motion or time-lapse effects.
  * Essential for synchronization with audio and meeting playback standards.
 
- Output Screenshot:  
+ Output Screenshot: ![fps](https://github.com/user-attachments/assets/2bba005d-d921-4963-af6e-1617b7ebba4c)
+
+ ![fps2](https://github.com/user-attachments/assets/c1a86e2c-e2cc-4b5e-ab20-b6cb5b4bfaa0)
+
+ 
  
 **C. Video Save**
  * Saves the processed video in a specified format (e.g., MP4, AVI).
  * Allows configuration of compression and resolution for quality and compatibility.
  * Supports adding metadata like timestamps or annotations for better tracking.
    
-Output Screenshot: 
+Output Screenshot: ![save2](https://github.com/user-attachments/assets/983a5362-fbf1-4d50-b572-70550c4e6f92)
+
 
 **D. Video Stream**
  * Captures live video from sources like webcams, IP cameras, or online streams.
  * Ideal for real-time applications like surveillance or live broadcasting.
  * Enables integration with processing features like motion detection or object tracking.
    
-Output Screenshot: 
+Output Screenshot: ![stream](https://github.com/user-attachments/assets/bd85c70e-d0fa-4348-a3ad-cf6317702213)
+
 
 **E. Video Stack**
  * Combines multiple frames side-by-side or sequentially for analysis.
  * Useful for visual comparisons, like original vs. processed frames.
  * Supports temporal visualization, aiding in monitoring changes over time.
    
-Output Screenshot: 
+Output Screenshot: ![video_stack](https://github.com/user-attachments/assets/14569871-03b6-4c24-a481-970693505f93)
+
 
 **Annotations** :
 Annotations in the context of data science, machine learning, and image/video processing refer to the process of adding descriptive or metadata labels to data. These labels provide additional context or information that helps in training algorithms, understanding data, or facilitating analysis. Annotations are particularly important in supervised learning, where models are trained using labeled data.
