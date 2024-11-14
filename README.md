@@ -24,7 +24,8 @@ Output Image:![grayscale](https://github.com/user-attachments/assets/6edfbb35-9d
  * Common blurring techniques include Gaussian, median, and bilateral blurs.
  * Helps to remove small details, making it easier to detect larger features or objects.
 
-Output Image:![blur](https://github.com/user-attachments/assets/69e5a335-db01-4e97-93d7-677fe1925428)
+Output Image:![blur resized](https://github.com/user-attachments/assets/2507d3f4-9bf9-4e2f-abb2-a45342b69557)
+
   
 **C. Image Contour**
  * Detects and outlines the contours of objects within an image, often based on shape or intensity changes.
