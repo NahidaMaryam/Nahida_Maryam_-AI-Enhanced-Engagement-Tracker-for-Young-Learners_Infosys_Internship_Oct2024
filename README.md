@@ -170,7 +170,10 @@ Output Screenshot: ![video_stack](https://github.com/user-attachments/assets/145
 
 
 
+
+
 **Annotations** :
+
 Annotations in the context of data science, machine learning, and image/video processing refer to the process of adding descriptive or metadata labels to data. These labels provide additional context or information that helps in training algorithms, understanding data, or facilitating analysis. Annotations are particularly important in supervised learning, where models are trained using labeled data.
 
 Libraries or Frameworks used- opencv ,LabelImg
@@ -203,7 +206,10 @@ Output Screenshot: ![3](https://github.com/user-attachments/assets/79a5efb7-cdf4
 Output Screenshot: ![data_label](https://github.com/user-attachments/assets/81fea1c0-c743-40a5-8893-19d009427cdc)
 
 
+
+
 **Face Recognition** :
+
 Face recognition is a biometric technology used to identify or verify individuals by analyzing their facial features. It involves capturing and analyzing facial patterns from an image or video and comparing them to a database of known faces to find a match. Face recognition can be used for both identification (determining who someone is) and verification (confirming someone’s identity).
 
 Libraries or Frameworks used-
@@ -224,10 +230,14 @@ opencv-python --4.10.0.84
   2. **Recording Attendance**:When Maryam is recognized, the system records the date and time in a DataFrame and saves the attendance to an Excel file once a specified number of recognitions (5) is reached.
   3. **Real-Time Video Processing**:The code captures video from the webcam, draws a bounding box around recognized faces, displays "Maryam" or "Not Maryam," and shows the video stream in real-time until the 'q' key is pressed.
 
-Input Image:  ![nahida](https://github.com/user-attachments/assets/945a116c-6ad6-4fa3-9373-faa63755ea11)
+Input Image: 
+![nahida](https://github.com/user-attachments/assets/945a116c-6ad6-4fa3-9373-faa63755ea11)
     
 
-Output Screenshot:![atten_save](https://github.com/user-attachments/assets/f234ab7f-5e55-4e8d-bf75-6123dc3c46f8)
+Output Screenshot:
+
+![atten_save](https://github.com/user-attachments/assets/f234ab7f-5e55-4e8d-bf75-6123dc3c46f8)
+
 
 ![atten](https://github.com/user-attachments/assets/366cbf35-9ba5-4cac-b557-2667163cb26a)
 
@@ -239,7 +249,10 @@ Output Screenshot:![atten_save](https://github.com/user-attachments/assets/f234a
  2. **Logging and Saving Screenshots**:When Maryam is recognized, the program logs her attendance, attentiveness score, and saves a screenshot with a label indicating her attentiveness.
  3. **Periodic Data Saving**:The attendance and attentiveness data is saved to an Excel file every 30 seconds and also upon program exit to preserve the information.
 
-Output Screenshot: ![Maryam_2024-11-08_19-01-27](https://github.com/user-attachments/assets/87019b0e-1714-4a95-a1a3-ff4bf08664f9)
+Output Screenshot:
+
+![Maryam_2024-11-08_19-01-27](https://github.com/user-attachments/assets/87019b0e-1714-4a95-a1a3-ff4bf08664f9)
+
 
 ![atte_score](https://github.com/user-attachments/assets/36523242-e7f9-487e-847f-79b6e1561d24)
 
@@ -261,7 +274,10 @@ Output Screenshot:  ![Maryam_2024-11-08_19-13-04](https://github.com/user-attach
  2.**Time-based Logging and Gap Control**:It logs an entry for Maryam every 30 seconds, and if 5 minutes pass without recognition, it logs again. Screenshots are saved with each log.
  3. **Periodic Excel Saving**:The code periodically saves the attendance DataFrame to an Excel file every 30 seconds and at the end of the session, ensuring all recognized entries are recorded.
 
- Output Screenshot:![Maryam_2024-11-08_18-18-19](https://github.com/user-attachments/assets/afe007bd-4aa3-47cc-950f-07d861f241df)
+ Output Screenshot:
+ 
+ ![Maryam_2024-11-08_18-18-19](https://github.com/user-attachments/assets/afe007bd-4aa3-47cc-950f-07d861f241df)
+
 
  ![excel](https://github.com/user-attachments/assets/57b0e7af-9584-4d5c-8d7e-ca47eae9182a)
 
@@ -273,7 +289,11 @@ Output Screenshot:  ![Maryam_2024-11-08_19-13-04](https://github.com/user-attach
  2. **Time-Based Logging and Screenshot Saving**:Screenshots are saved with a timestamp on them, and the attendance of "Maryam" is logged in a DataFrame with a screenshot and time. New entries are logged if 2 minutes pass or if a 5-minute gap occurs.
  3. **Periodic Excel Saving**:The code saves the attendance DataFrame to an Excel file every 30 seconds, ensuring continuous logging, and performs a final save at the end of the session.
 
-Output Screenshot: ![Maryam_2024-11-08_18-37-28](https://github.com/user-attachments/assets/3837fa23-1bf9-4ffd-bf7c-47130c1eedb8)
+Output Screenshot: 
+
+
+![Maryam_2024-11-08_18-37-28](https://github.com/user-attachments/assets/3837fa23-1bf9-4ffd-bf7c-47130c1eedb8)
+
 
 ![excel_date](https://github.com/user-attachments/assets/316622b2-bb1e-4d18-8ca2-753311f01311)
 
@@ -285,7 +305,9 @@ Output Screenshot: ![Maryam_2024-11-08_18-37-28](https://github.com/user-attachm
  2. **Face Detection and Recognition in Real-Time**:The camera continuously captures frames, detects faces, and compares them to the known face encoding. If the detected face matches the known image (based on a confidence threshold), it labels the face as "Maryam".
  3. **Display and Annotate Video Stream**:The code draws bounding boxes around recognized faces and displays the name "Maryam" or "Not Maryam" based on whether the face is recognized. The video stream continues until the user presses the 'q' key to stop it.
 
-Output Screenshot:![face_recog](https://github.com/user-attachments/assets/08bd3ad4-30c7-4850-9255-a8ccfe09f1f8)
+Output Screenshot:
+
+![face_recog](https://github.com/user-attachments/assets/08bd3ad4-30c7-4850-9255-a8ccfe09f1f8)
 
 
 **G. Maryam_landmark**
@@ -294,7 +316,10 @@ Output Screenshot:![face_recog](https://github.com/user-attachments/assets/08bd3
  2. **Head Pose Analysis for Attentiveness**:Using detected facial landmarks, the code estimates the head's yaw, pitch, and roll to determine if Maryam is attentive (i.e., facing forward with minimal head movement).
  3. **Screenshot and Data Logging**:If Maryam is attentive, a screenshot is saved with a label ("Attentive" or "Not Attentive"). This information, along with the date, time, and screenshot path, is logged in a DataFrame and saved to an Excel file every 30 seconds.
 
-Output Screenshot: ![face_recog](https://github.com/user-attachments/assets/f3185485-d680-4fa5-89e7-b5297a5bff70)
+Output Screenshot: 
+
+![face_recog](https://github.com/user-attachments/assets/f3185485-d680-4fa5-89e7-b5297a5bff70)
+
 
 ![landmark](https://github.com/user-attachments/assets/1cf4f9d3-0cbf-4403-bd67-e74f97f6bed1)
 
@@ -304,7 +329,9 @@ Output Screenshot: ![face_recog](https://github.com/user-attachments/assets/f318
  2. **Entry Validity and Time Gap Handling**:The code checks if a person has been recognized within the last 2 minutes. If no recognition has occurred within that time, a new entry is logged. If 5 minutes have passed since the last entry, another entry is recorded for the same person.
  3. **Periodic Data Saving**:The attendance data (name, date, time) is saved to an Excel file (maryam_recognized_faces.xlsx) every 30 seconds, ensuring that the information is periodically backed up during the live video stream.
 
- Output Screenshot: ![test](https://github.com/user-attachments/assets/08bcba2a-4efb-4f35-a015-e056fe679af3)
+ Output Screenshot: 
+ 
+ ![test](https://github.com/user-attachments/assets/08bcba2a-4efb-4f35-a015-e056fe679af3)
 
  
    
