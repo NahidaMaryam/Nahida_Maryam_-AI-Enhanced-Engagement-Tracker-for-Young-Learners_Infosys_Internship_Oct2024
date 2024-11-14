@@ -111,30 +111,87 @@ Output Image: ![rotate](https://github.com/user-attachments/assets/e41de2b1-7176
  * Helpful in applications like logo detection, object localization, and pattern recognition.
 
 Output Image: ![template](https://github.com/user-attachments/assets/9d476ecb-ed49-4827-9602-3064e5ddb858)
-   
-
 
 
 **Video processing** :
+Video processing refers to the manipulation, enhancement, and analysis of video data using various computational techniques. It involves applying algorithms to extract useful information, improve video quality, or transform the video for specific applications, such as computer vision, entertainment, security, or healthcare. Video processing encompasses a range of operations from basic editing to complex analysis, often performed in real-time or on pre-recorded content.
+
 Libraries or Frameworks used- opencv
+
 Version- 4.10.0.84
-Developed Logics-
- A.Video Folder Path:Specifies the folder path where video files are stored.
- B.Video FPS: Sets the frames per second (fps) for controlling video playback speed.
- C.Video Save: Saves the processed video to a specified file format.
- D.Video Stream: Captures live video feed from a camera or streaming source.
- E.Video Stack: Combines multiple video frames for side-by-side or sequential analysis.
+
+**Developed Logics-**
+
+**A. Video Folder Path**
+ * Specifies the directory for storing and accessing video files for organized processing.
+ * Enables batch processing by allowing automated access to multiple videos.
+ * Facilitates easy retrieval and organization of video datasets or archived footage.
+
+Output Screenshot: 
+
+**B. Video FPS (Frames Per Second)**
+ * Controls the playback speed and smoothness of video.
+ * Allows adjustment of video speed, such as slow-motion or time-lapse effects.
+ * Essential for synchronization with audio and meeting playback standards.
+
+ Output Screenshot:  
+ 
+**C. Video Save**
+ * Saves the processed video in a specified format (e.g., MP4, AVI).
+ * Allows configuration of compression and resolution for quality and compatibility.
+ * Supports adding metadata like timestamps or annotations for better tracking.
+   
+Output Screenshot: 
+
+**D. Video Stream**
+ * Captures live video from sources like webcams, IP cameras, or online streams.
+ * Ideal for real-time applications like surveillance or live broadcasting.
+ * Enables integration with processing features like motion detection or object tracking.
+   
+Output Screenshot: 
+
+**E. Video Stack**
+ * Combines multiple frames side-by-side or sequentially for analysis.
+ * Useful for visual comparisons, like original vs. processed frames.
+ * Supports temporal visualization, aiding in monitoring changes over time.
+   
+Output Screenshot: 
 
 **Annotations** :
+Annotations in the context of data science, machine learning, and image/video processing refer to the process of adding descriptive or metadata labels to data. These labels provide additional context or information that helps in training algorithms, understanding data, or facilitating analysis. Annotations are particularly important in supervised learning, where models are trained using labeled data.
+
 Libraries or Frameworks used- opencv ,LabelImg
+
 Version- 4.10.0.84 ,1.8.6
-Developed Logics-
- A. Data Segregate : Splits data into different categories or sets for analysis.
- B. Labelling : Assigns labels or annotations to data for classification.
- C. Label Manipulate : Modifies or adjusts labels to refine data categories or correct errors.
+
+**Developed Logics-**
+ 
+**A. Data Segregate**
+ * Splits data into different categories or sets for analysis based on certain criteria or characteristics.
+ * Helps in organizing data into groups, making it easier to process, analyze, and draw meaningful conclusions.
+ * Commonly used in machine learning to separate training, validation, and test datasets, or to organize data based on features like class labels, demographics, or time periods.
+   
+Output Screenshot:
+
+**B. Labelling**
+ * Assigns labels or annotations to data, typically for supervised learning tasks.
+ * Ensures that the dataset contains the correct categorization or tags, such as identifying objects in images or classifying text for sentiment analysis.
+ * Important for creating ground truth data used in training models for classification, regression, and other machine learning tasks.
+   
+Output Screenshot: 
+
+**C. Label Manipulate**
+ * Modifies or adjusts labels to refine data categories or correct labeling errors.
+ * Can be used to handle mislabeled data or to reassign labels to reflect more accurate or refined categories, such as updating class labels based on new insights or correcting annotation mistakes.
+ * Often used during data cleaning and preprocessing phases to improve the quality of the dataset and ensure the accuracy of the model being trained.
+   
+Output Screenshot: 
 
 **Face Recognition** :
+Face recognition is a biometric technology used to identify or verify individuals by analyzing their facial features. It involves capturing and analyzing facial patterns from an image or video and comparing them to a database of known faces to find a match. Face recognition can be used for both identification (determining who someone is) and verification (confirming someone’s identity).
+
 Libraries or Frameworks used-
+
 face_recognition -- 1.3.0
 dlib --1 9.24.6
 pandas -- 2.2.3
@@ -142,16 +199,73 @@ numpy  -- 2.1.2
 datetime -- 5.5
 imutils --0.5.4
 opencv-python --4.10.0.84
-Developed Logics-
-  A. Maryam_attendance_save
-  B. Maryam_atten_score
-  C. Maryam_avg_atten_score
-  D. Maryam_excel_sc
-  E. Maryam_excel_sc_dt
-  F. Maryam_face_recog
-  G. Maryam_landmark
-  H. Maryam_test
+
+**Developed Logics-**
+
+**A. Maryam_attendance_save**
+
+  1. **Face Recognition and Detection**:The code detects faces in real-time using the webcam, compares the detected face with a known face (Maryam), and identifies her if the match is above a certain confidence threshold.
+  2. **Recording Attendance**:When Maryam is recognized, the system records the date and time in a DataFrame and saves the attendance to an Excel file once a specified number of recognitions (5) is reached.
+  3. **Real-Time Video Processing**:The code captures video from the webcam, draws a bounding box around recognized faces, displays "Maryam" or "Not Maryam," and shows the video stream in real-time until the 'q' key is pressed.
+      
+Output Screenshot: 
+
+**B. Maryam_atten_score**
+
+ 1.**Face Recognition and Attentiveness**:The code recognizes Maryam's face and calculates an attentiveness score based on her head pose (yaw and pitch). If the score is above 0.5, she is marked as attentive.
+ 2. **Logging and Saving Screenshots**:When Maryam is recognized, the program logs her attendance, attentiveness score, and saves a screenshot with a label indicating her attentiveness.
+ 3. **Periodic Data Saving**:The attendance and attentiveness data is saved to an Excel file every 30 seconds and also upon program exit to preserve the information.
+
+Output Screenshot: 
+
+**C. Maryam_avg_atten_score**
+
+ 1. **Face Recognition and Attentiveness Calculation**:The code recognizes Maryam's face and calculates an attentiveness score based on head pose (yaw and pitch). If the score is above 0.5, she is considered attentive.
+ 2.**Logging and Screenshot Saving**:When Maryam is detected, the program logs her attendance, attentiveness score, and saves a screenshot with a label indicating her attentiveness.
+ 3. **Periodic Data Saving and Average Calculation:**The code saves the attendance data to an Excel file every 30 seconds and calculates the average attentiveness score at the end of the session, appending it to the final log.
+
+Output Screenshot:  
+
+**D. Maryam_excel_sc**
+
+ 1. **Face Recognition and Logging**:The code recognizes "Maryam" by comparing detected faces with a known image, logging her attendance in a DataFrame with a screenshot and timestamp when she is detected.
+ 2.**Time-based Logging and Gap Control**:It logs an entry for Maryam every 30 seconds, and if 5 minutes pass without recognition, it logs again. Screenshots are saved with each log.
+ 3. **Periodic Excel Saving**:The code periodically saves the attendance DataFrame to an Excel file every 30 seconds and at the end of the session, ensuring all recognized entries are recorded.
+
+ Output Screenshot: 
  
+ **E. Maryam_excel_sc_dt**
+
+ 1. **Face Recognition and Logging**: The code recognizes "Maryam" by comparing detected faces with a known image, and logs her attendance every 2 minutes or after a 5-minute gap, capturing screenshots with timestamps.
+ 2. **Time-Based Logging and Screenshot Saving**:Screenshots are saved with a timestamp on them, and the attendance of "Maryam" is logged in a DataFrame with a screenshot and time. New entries are logged if 2 minutes pass or if a 5-minute gap occurs.
+ 3. **Periodic Excel Saving**:The code saves the attendance DataFrame to an Excel file every 30 seconds, ensuring continuous logging, and performs a final save at the end of the session.
+
+Output Screenshot: 
+
+ **F. Maryam_face_recog**
+
+ 1. **Face Recognition with Known Image**:The code loads a known image (presumed to be Maryam) and compares detected faces in the video stream with this known image using face encoding.
+ 2. **Face Detection and Recognition in Real-Time**:The camera continuously captures frames, detects faces, and compares them to the known face encoding. If the detected face matches the known image (based on a confidence threshold), it labels the face as "Maryam".
+ 3. **Display and Annotate Video Stream**:The code draws bounding boxes around recognized faces and displays the name "Maryam" or "Not Maryam" based on whether the face is recognized. The video stream continues until the user presses the 'q' key to stop it.
+
+Output Screenshot:
+
+**G. Maryam_landmark**
+
+ 1. **Face Recognition and Landmark Detection**:The code captures live video, detects faces, and compares them to a known image of Maryam. Upon recognizing Maryam, it performs facial landmark detection to analyze the head pose and detect attentiveness.
+ 2. **Head Pose Analysis for Attentiveness**:Using detected facial landmarks, the code estimates the head's yaw, pitch, and roll to determine if Maryam is attentive (i.e., facing forward with minimal head movement).
+ 3. **Screenshot and Data Logging**:If Maryam is attentive, a screenshot is saved with a label ("Attentive" or "Not Attentive"). This information, along with the date, time, and screenshot path, is logged in a DataFrame and saved to an Excel file every 30 seconds.
+
+Output Screenshot: 
+
+**H. Maryam_test**
+ 1. **Face Recognition and Attendance Logging**:The code uses the face_recognition library to recognize a known face (Maryam) from the webcam feed. If Maryam is detected, the code logs the recognition event in a DataFrame with the current date and time.
+ 2. **Entry Validity and Time Gap Handling**:The code checks if a person has been recognized within the last 2 minutes. If no recognition has occurred within that time, a new entry is logged. If 5 minutes have passed since the last entry, another entry is recorded for the same person.
+ 3. **Periodic Data Saving**:The attendance data (name, date, time) is saved to an Excel file (maryam_recognized_faces.xlsx) every 30 seconds, ensuring that the information is periodically backed up during the live video stream.
+
+ Output Screenshot: 
  
- 
-  
+   
+
+
+
