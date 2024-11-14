@@ -12,10 +12,9 @@ Version- 4.10.0.84
  * Grayscale images reduce memory usage and computational cost since they contain only intensity information.
  * Useful as a preprocessing step for many image processing algorithms, like edge detection and object tracking.
    
-Input Image: ![image3](https://github.com/user-attachments/assets/7084b142-5dbd-4224-b8b9-6df4bdce4dd5)
+Input Image: ![image3 resized](https://github.com/user-attachments/assets/5f9155ce-35c6-41cd-aa85-b0029042aa20)
 
-<img src="![nahida](https://github.com/user-attachments/assets/598069ae-5fff-48d9-ada0-dacdc5f6b23a)
-" width="300">
+
 
 
 Output Image:![grayscale](https://github.com/user-attachments/assets/6edfbb35-9dc3-495b-9844-69d3e263f14e)
