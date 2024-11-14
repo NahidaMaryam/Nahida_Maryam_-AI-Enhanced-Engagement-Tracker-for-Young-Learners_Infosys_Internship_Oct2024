@@ -240,7 +240,8 @@ Input Image:
 
 Output Screenshot:
 
-![atten_save](https://github.com/user-attachments/assets/f234ab7f-5e55-4e8d-bf75-6123dc3c46f8)
+                                ![atten_save resized](https://github.com/user-attachments/assets/3754d6ed-7b49-4fb9-af4c-fb7569db089e)
+
 
 
 ![atten](https://github.com/user-attachments/assets/366cbf35-9ba5-4cac-b557-2667163cb26a)
