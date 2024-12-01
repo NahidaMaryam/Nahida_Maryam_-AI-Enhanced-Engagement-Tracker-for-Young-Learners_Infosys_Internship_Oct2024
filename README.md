@@ -477,10 +477,12 @@ Output Screenshot:
      a. Loads two different face images for recognition
      b. Can identify and track both faces simultaneously
      c Assigns different names to each recognized person
+     
 **2. Individual Tracking:**
      a.Tracks emotions for each face separately
      b. Monitors attention status for each person
      c. Saves screenshots with both faces when detected
+     
 **3.Enhanced Data Logging:**
      a. Saves data for both people in the same Excel sheet
      b. Tracks which person was detected at what time
@@ -496,10 +498,17 @@ Output Screenshot:
 ![Person1_2024-12-01_21-06-49](https://github.com/user-attachments/assets/efba51d4-efa8-41bb-8d6b-b1a5d7f4a96d)
 
 
+
+![Person2_2024-12-01_21-07-18](https://github.com/user-attachments/assets/b773ec3e-e255-484f-912b-51f7f977f67f)
+
+
+
 **B.Emotion Detection**
 
 **1. Face Recognition and Emotion Detection**:The system uses the face_recognition library to identify a known individual (e.g., "Maryam") in real-time.
+
 **2. Attentiveness Tracking via Head Pose Estimation**:Facial landmarks detected using dlib are utilized to calculate head pose (pitch, yaw, and roll angles). The system calculates an attentiveness score based on the alignment of the head with thresholds, logging whether the individual is attentive or not.
+
 **3. Real-Time Logging and Visualization**:The system overlays text and emojis on the video feed, showing the individual's name, emotion, and attentiveness.Screenshots of the detected face, along with detailed logs (name, date, time, emotion, and  attentiveness status), are periodically saved to an Excel file for review and analysis.
 
 
@@ -519,13 +528,16 @@ Output Screenshot:
    a. Uses FER (Facial Expression Recognition) library
    b. Detects 7 emotions: happy, sad, angry, neutral, surprise, fear, disgust
    c. Shows emotion confidence scores
+   
 **2.Emoji Display:**
    a. Maps emotions to corresponding emojis
    b. Shows emojis on the video feed
+   
 **3.Enhanced Excel Output:**
    a. Adds emotion and confidence columns
    b. Tracks both attention and emotional state
    c. Saves screenshots with emotion information
+   
 **Real-time Display:**
    a. Shows emotion label with emoji
    b. Displays confidence score
