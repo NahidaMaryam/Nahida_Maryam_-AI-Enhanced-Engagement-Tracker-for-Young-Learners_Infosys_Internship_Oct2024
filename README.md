@@ -465,6 +465,85 @@ Output Screenshot:
  
 
 ![test resized](https://github.com/user-attachments/assets/fe87148e-2c71-4210-a5a8-3a494caa102c)
+
+
+
+**Additional works**
+
+
+**A.Dual Face Emoji Detection**
+
+**1.Dual Face Recognition:**
+     a. Loads two different face images for recognition
+     b. Can identify and track both faces simultaneously
+     c Assigns different names to each recognized person
+**2. Individual Tracking:**
+     a.Tracks emotions for each face separately
+     b. Monitors attention status for each person
+     c. Saves screenshots with both faces when detected
+**3.Enhanced Data Logging:**
+     a. Saves data for both people in the same Excel sheet
+     b. Tracks which person was detected at what time
+     c. Maintains separate emotion and attention scores
+
+
+**Output Screenshots:**
+
+![dual_face resized](https://github.com/user-attachments/assets/f8761c68-241e-4887-bb44-47402765c134)
+
+
+![Person1_2024-12-01_21-06-49 resized](https://github.com/user-attachments/assets/53a8929c-a676-437c-9527-346301a1ec72)
+
+
+
+**B.Emotion Detection**
+
+**1. Face Recognition and Emotion Detection**:The system uses the face_recognition library to identify a known individual (e.g., "Maryam") in real-time.
+**2. Attentiveness Tracking via Head Pose Estimation**:Facial landmarks detected using dlib are utilized to calculate head pose (pitch, yaw, and roll angles). The system calculates an attentiveness score based on the alignment of the head with thresholds, logging whether the individual is attentive or not.
+**3. Real-Time Logging and Visualization**:The system overlays text and emojis on the video feed, showing the individual's name, emotion, and attentiveness.Screenshots of the detected face, along with detailed logs (name, date, time, emotion, and  attentiveness status), are periodically saved to an Excel file for review and analysis.
+
+
+**Output Screenshots:**
+
+![emotion resized](https://github.com/user-attachments/assets/6b497d5b-00ab-49ae-86fe-693a5f4ca5c7)
+
+
+![Maryam_2024-12-01_15-01-33 resized](https://github.com/user-attachments/assets/aaee1b0e-1948-421e-bcc8-f5a3f9028b18)
+
+
+
+**C. Emotion with Emoji Detection**
+
+**1.Emotion Detection:**
+   a. Uses FER (Facial Expression Recognition) library
+   b. Detects 7 emotions: happy, sad, angry, neutral, surprise, fear, disgust
+   c. Shows emotion confidence scores
+**2.Emoji Display:**
+   a. Maps emotions to corresponding emojis
+   b. Shows emojis on the video feed
+**3.Enhanced Excel Output:**
+   a. Adds emotion and confidence columns
+   b. Tracks both attention and emotional state
+   c. Saves screenshots with emotion information
+**Real-time Display:**
+   a. Shows emotion label with emoji
+   b. Displays confidence score
+   c. Maintains existing attention tracking
+
+**Output Screenshots:**
+
+![emotion with emoji resized](https://github.com/user-attachments/assets/87ff824c-eada-41c2-aa61-b03129820903)
+
+
+![emotion_emoji resized](https://github.com/user-attachments/assets/bc69243c-b900-40af-99b2-e3431992decc)
+
+
+![Maryam_2024-12-01_15-34-50 resized](https://github.com/user-attachments/assets/d044d12d-b509-4d9e-88d6-d81f56690ef4)
+
+
+
+   
+     
  
 
 
