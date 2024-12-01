@@ -492,8 +492,8 @@ Output Screenshot:
 ![dual_face resized](https://github.com/user-attachments/assets/f8761c68-241e-4887-bb44-47402765c134)
 
 
-![Person1_2024-12-01_21-06-49 resized](https://github.com/user-attachments/assets/53a8929c-a676-437c-9527-346301a1ec72)
 
+![Person1_2024-12-01_21-06-49](https://github.com/user-attachments/assets/efba51d4-efa8-41bb-8d6b-b1a5d7f4a96d)
 
 
 **B.Emotion Detection**
@@ -506,6 +506,7 @@ Output Screenshot:
 **Output Screenshots:**
 
 ![emotion resized](https://github.com/user-attachments/assets/6b497d5b-00ab-49ae-86fe-693a5f4ca5c7)
+
 
 
 ![Maryam_2024-12-01_15-01-33 resized](https://github.com/user-attachments/assets/aaee1b0e-1948-421e-bcc8-f5a3f9028b18)
@@ -535,7 +536,9 @@ Output Screenshot:
 ![emotion with emoji resized](https://github.com/user-attachments/assets/87ff824c-eada-41c2-aa61-b03129820903)
 
 
+
 ![emotion_emoji resized](https://github.com/user-attachments/assets/bc69243c-b900-40af-99b2-e3431992decc)
+
 
 
 ![Maryam_2024-12-01_15-34-50 resized](https://github.com/user-attachments/assets/d044d12d-b509-4d9e-88d6-d81f56690ef4)
