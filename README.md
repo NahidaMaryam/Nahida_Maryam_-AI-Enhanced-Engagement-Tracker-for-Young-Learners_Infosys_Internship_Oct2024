@@ -559,10 +559,39 @@ Output Screenshot:
 
 
 
+
+
+
+**d.Attention Feedback**
+
+**1.Dynamic Thresholds:**
+    a. Different thresholds for pitch, yaw, and roll
+    b. Weighted importance for different movements
+    c. More sensitive to natural head movements.
+    
+**2. Movement Detection:**
+   a. Tracks facial landmark movement between frames
+   b. Adjusts score based on sudden movements
+   c. Helps detect fidgeting or restlessness
+   
+**3. Score Smoothing:**
+   a. Implements temporal smoothing
+   b Prevents sudden jumps in attention score
+   c. More natural transitions
+   
+**4. Graduated Feedback:**
+   a. Different messages based on score ranges
+   b. More nuanced feedback system
+   c. Better reflection of attention levels
    
      
- 
+**Output Screenshots:**
 
+![feedback2 resized](https://github.com/user-attachments/assets/e72c20c8-ce39-4a9a-a043-4827337f80d4)
+
+
+
+![Maryam_2024-12-03_18-19-56](https://github.com/user-attachments/assets/c11847e2-3773-4a95-9e2c-69582124216a)
 
  
    
